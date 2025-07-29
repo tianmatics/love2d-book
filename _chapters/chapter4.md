@@ -1,4 +1,5 @@
 ---
+title: Basic Game Structure
 order: 5
 ---
 # Chapter 4: Basic Game Structure
