@@ -1,3 +1,6 @@
+---
+order: 1
+---
 # Chapter 1: Introduction to Love2D
 
 ## What is Love2D?
