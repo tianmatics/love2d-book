@@ -1,4 +1,5 @@
 ---
+title: Introduction to Love2D
 order: 1
 ---
 # Chapter 1: Introduction to Love2D
