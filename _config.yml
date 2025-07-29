@@ -1,7 +1,8 @@
 # Site settings
 title: "Love2D Open Book"
 description: "A free comprehensive guide to game development with Löve2D framework. Learn Lua programming, graphics, physics, and create amazing 2D games."
-baseurl: "" # the subpath of your site
+baseurl: "/love2d-book"
+# the subpath of your site
 url: "https://tianmatics.github.io/love2d-book" # GitHub Pages URL (without the repo name)
 
 # Author information
