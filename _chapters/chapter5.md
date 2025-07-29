@@ -1,4 +1,5 @@
 ---
+title: Drawing and Graphics
 order: 5
 ---
 # Chapter 5: Drawing and Graphics
