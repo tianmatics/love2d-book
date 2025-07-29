@@ -1,7 +1,8 @@
 # love2d book
 A free book on love2d.
 # PDF
-This book has a free pdf version link:[https://tianmatics.github.io/love2d-book.pdf](https://tianmatics.github.io/love2d-book.pdf)
+This book has a free pdf version link:[Download Löve2D PDF Book free](https://raw.githubusercontent.com/tianmatics/love2d-book/main/love2d-book.pdf
+)
 
 # Contribution 
 
