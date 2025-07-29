@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Us"
-description: "About this book and Authors"
+permalink: /about-us/
 ---
 
 This book is primarily written by Limon Das.
