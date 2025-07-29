@@ -55,7 +55,11 @@ defaults:
     values:
       layout: "page" # Uses page.html layout
       author: "Limon Das" 
-
+#plugin
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 # Exclude from processing
 exclude:
   - Gemfile
