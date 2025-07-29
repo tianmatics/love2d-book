@@ -1,34 +1,32 @@
+# Site settings
 title: "Love2D Open Book"
-description: "A free book on game development with Löve2D"
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://tianmatics.github.io/love2d-book" #GitHub Pages URL
-feed:
-  posts_limit: 20
-  excerpt_only: true
-  author: "Limon Das"
+description: "A free comprehensive guide to game development with Löve2D framework. Learn Lua programming, graphics, physics, and create amazing 2D games."
+baseurl: "/love2d-book" # the subpath of your site
+url: "https://tianmatics.github.io" # GitHub Pages URL (without the repo name)
 
+# Author information
+author: "Limon Das"
 github_username: tianmatics
+email: tianmatics@gmail.com
 
 # SEO Settings
 lang: en_US
+timezone: Asia/Dhaka # Add your timezone
 
-defaults:
-  - scope:
-      path: ""
-      type: "chapters"
-    values:
-      layout: "default"
-      author: "Löve2D Book Community"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "pages"
-      author: "Limon Das"
-      
+# Feed settings
+feed:
+  posts_limit: 20
+  excerpt_only: true
+  path: feed.xml
+
 # Social Media
 social:
   name: Limon Das
+  links:
+    - https://github.com/tianmatics
+    - https://tianmatics.itch.io
+    - mailto:tianmatics@gmail.com
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -39,6 +37,23 @@ collections:
   chapters:
     output: true
     permalink: /:collection/:name/
+    sort_by: order
+
+# Page defaults
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "default"
+      author: "Limon Das"
+      image: "/assets/images/love2d-default.jpg" # Add a default image
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page" # Uses page.html layout
+      author: "Limon Das"
 
 # Plugins
 plugins:
@@ -46,6 +61,15 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# SEO tag settings
+logo: "/assets/images/love2d-logo.png" # Add your logo
+twitter:
+  username: tianmatics # Add if you have Twitter
+  card: summary_large_image
+
+# Sass settings (optional)
+sass:
+  style: compressed
 
 # Exclude from processing
 exclude:
@@ -53,5 +77,8 @@ exclude:
   - Gemfile.lock
   - vendor/
   - readme.md
-
-
+  - README.md
+  - node_modules/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
