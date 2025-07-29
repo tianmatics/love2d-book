@@ -1,3 +1,6 @@
+---
+order: 2
+---
 # Chapter 2: Installation and Setup
 
 ## Installing Love2D
