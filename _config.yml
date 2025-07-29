@@ -40,7 +40,20 @@ collections:
     sort_by: order
 
 # Page defaults
-layout: default 
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "default"
+      author: "Limon Das"
+      image: "/assets/images/love2d-default.jpg" # Add a default image
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page" # Uses page.html layout
+      author: "Limon Das" 
 
 # Exclude from processing
 exclude:
