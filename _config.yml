@@ -27,8 +27,5 @@ exclude:
   - vendor/
 
 # Markdown settings
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    css_class: 'highlight'
+defaults:
+  layout: default
