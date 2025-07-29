@@ -1,3 +1,6 @@
+---
+order: 3
+---
 # Chapter 3: Your First Love2D Game
 
 ## Understanding the Game Loop
