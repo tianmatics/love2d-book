@@ -477,6 +477,13 @@
             <span>→</span>
           </a>
         {% endif %}
+        {% if page.path %}
+    <div class="edit-link">
+      <a href="https://github.com/yourusername/yourrepo/edit/main/{{ page.path }}" target="_blank">
+        ✏️ Edit on GitHub
+      </a>
+    </div>
+    {% endif %}
       </div>
     </div>
   </div>
