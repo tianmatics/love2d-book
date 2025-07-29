@@ -19,6 +19,56 @@
             flex-direction: column;
             min-height: 100vh;
         }
+    .book-sidebar {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 240px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  height: calc(100vh - 80px);
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  font-family: 'Jost', sans-serif;
+}
+
+.book-sidebar h3 {
+  margin-top: 0;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.book-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-sidebar li {
+  margin-bottom: 10px;
+}
+
+.book-sidebar a {
+  display: block;
+  padding: 8px 12px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  border: 1px solid #ccc;
+}
+
+.book-sidebar a:hover {
+  background-color: #ddd;
+}
+
+.book-sidebar a.active {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+}
+    
         .navbar {
             position: fixed;
             top: 0;
