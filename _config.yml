@@ -2,7 +2,33 @@ title: "Love2D Open Book"
 description: "A free book on game development with Löve2D"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tianmatics.github.io/love2d-book" #GitHub Pages URL
+feed:
+  posts_limit: 20
+  excerpt_only: true
+  author: "Limon Das"
 
+github_username: tianmatics
+
+# SEO Settings
+lang: en_US
+
+defaults:
+  - scope:
+      path: ""
+      type: "chapters"
+    values:
+      layout: "default"
+      author: "Löve2D Book Community"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "pages"
+      author: "Limon Das"
+      
+# Social Media
+social:
+  name: Limon Das
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -28,6 +54,4 @@ exclude:
   - vendor/
   - readme.md
 
-# Markdown settings
-defaults:
-  layout: default
+
