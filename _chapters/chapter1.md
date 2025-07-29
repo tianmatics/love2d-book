@@ -3,7 +3,6 @@ title: "Introduction to Love2D"
 description: "Discover Love2D framework and why it's perfect for 2D game development with Lua programming"
 order: 1
 keywords: "Love2D, LÖVE, 2D games, Lua programming, game engine"
-image: "/assets/images/chapters/introduction.jpg"
 author: "Limon Das"
 date: 2024-01-15
 ---
