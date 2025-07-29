@@ -1,4 +1,5 @@
 ---
+title: Your First Love2D Game
 order: 3
 ---
 # Chapter 3: Your First Love2D Game
