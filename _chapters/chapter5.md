@@ -1,3 +1,6 @@
+---
+order: 5
+---
 # Chapter 5: Drawing and Graphics
 
 ## Understanding the Graphics System
