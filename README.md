@@ -1,8 +1,7 @@
-
 # Löve2d Open E-book
 
 A free book on löve2d.
-[Start Reading](https://tianmatics.github.io/love2d-book/chapters/chapter 1/)
+[Start Reading](https://tianmatics.github.io/love2d-book/chapters/chapter1/)
 
 # PDF
 This book has a free pdf version link:[Download Löve2D PDF Book free](https://raw.githubusercontent.com/tianmatics/love2d-book/main/love2d-book.pdf
