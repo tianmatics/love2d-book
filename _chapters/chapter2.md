@@ -1,4 +1,5 @@
 ---
+title: Installing Löve2D
 order: 2
 ---
 # Chapter 2: Installation and Setup
