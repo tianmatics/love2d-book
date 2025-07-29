@@ -40,36 +40,7 @@ collections:
     sort_by: order
 
 # Page defaults
-defaults:
-  - scope:
-      path: ""
-      type: "chapters"
-    values:
-      layout: "default"
-      author: "Limon Das"
-      image: "/assets/images/love2d-default.jpg" # Add a default image
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page" # Uses page.html layout
-      author: "Limon Das"
-
-# Plugins
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-
-# SEO tag settings
-logo: "/assets/images/love2d-logo.png" # Add your logo
-twitter:
-  username: tianmatics # Add if you have Twitter
-  card: summary_large_image
-
-# Sass settings (optional)
-sass:
-  style: compressed
+layout: default 
 
 # Exclude from processing
 exclude:
