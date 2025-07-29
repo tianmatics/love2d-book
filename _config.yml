@@ -20,11 +20,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+
 # Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - readme.md
 
 # Markdown settings
 defaults:
